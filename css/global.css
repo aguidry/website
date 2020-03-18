@@ -1,0 +1,134 @@
+/*=== Reset Styles ===*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-weight:inherit;
+	font-style:inherit;
+	font-size:100%;
+	font-family:inherit;
+	vertical-align:baseline;
+}
+/*===================*/
+#divGlobalWrapper{
+    width: 800px;
+    margin: 0px auto;
+}
+#divHeader{
+    height: 80px;
+    border-bottom: 2px solid #808080;
+}
+#divHeaderName{
+    float: left;
+    padding: 15px 0px 0px 0px;
+}
+#divHeaderNavigation{
+    float: right;
+    padding: 45px 0px 0px 0px;
+    font-size: 20px;
+}
+#divFooter{
+    height: 80px;
+    border-top: 2px solid #808080;
+    color: #808080;
+}
+#navBar {
+    color: #FFFFFF;
+    font-size: 1.1em;
+    font-family: Cambria, Georgia, serif;
+    padding: 0px;
+}
+
+#mainContent{
+    padding: 10px;
+    margin: 0px 40px;
+}
+ul#navBar {
+    float: right;
+    width: auto;
+}
+ul#navBar li {
+    display: inline;
+}
+ul#navBar li a {
+    color: #808080;
+    display: block;
+    float: left;
+    margin-left: 10px;
+    border: 0px;
+}
+ul#navBar li a:hover {
+    color: #000080;
+    border-bottom: 3px solid #000080;
+}
+
+.imgHome{
+    width: 700px;
+    height: 200px;
+    border: 1px solid #000080;
+}
+
+#imgHeadshot{
+    margin: 15px 10px 20px 15px;
+    border: 1px solid #999;
+    width:150px;
+    height:230px;
+    float: left;
+}
+.divImgHome{
+    padding: 2px;
+}
+.caption{
+    width: 699px;
+    color: #000080;
+    font-size:14px;
+    padding: 2px;
+    font-weight: bold;
+}
+
+h1{
+    font-size: 40px;
+    color: #000080;
+}
+h2{
+    font-size: 25px;
+    color: #000080;
+}
+h3{
+    font-size: 18px;
+}
+body{
+    font-family: 'PT Serif', serif;
+    background-color: #f8f8ff;
+}
+
+a, a:visited{
+    text-decoration: none;
+    color: #000080;
+}
+#divPub{
+    padding: 5px;
+    background-color: #fcfcfc;
+    border: 2px solid #808080;
+    margin-bottom: 5px;
+}
+#divAbstract{
+    display: none;
+}
+button{
+    float: right;
+}
+.targetDiv {
+    display: none
+}
+.targetDiv.first {
+    display: block
+}
